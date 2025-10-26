@@ -1,0 +1,1462 @@
+/****** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+CSS COPYRIGHT www.studioworx.co.uk - The CSS is prohibited from viewing, using in whole or part.
+Usage of the CSS may result in legal action. A notification has been sent to us letting us know
+this page has been accessed directly including the IP, Time and domain it was accessed from.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *******/
+
+/*
+/ Max width overide
+/ ------------------------------ */
+
+@media (min-width: 1300px) {
+	.container {
+		max-width: 1260px;
+	}
+}
+
+/*
+/ Global
+/ ------------------------------ */
+
+#page + center,
+#page + div{
+	display: none;
+}
+
+[data-hide=""]{
+	display: none !important;
+}
+
+video{
+	background: #000000;
+}
+
+#page{
+	font-family: 'Source Sans 3', Arial, sans-serif;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
+
+.margin-top{
+	margin-top: 20px;
+}
+
+.margin-bottom{
+	margin-bottom: 20px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden{
+	display: none;
+}
+
+.heading{
+	background-color: #333333;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 10px;
+}
+
+.subheading{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 0;
+	color: #333333;
+}
+
+/*
+/ Typography
+/ ------------------------------ */
+
+h1{
+	font-size: 18px;
+	color: #333333;
+}
+
+h2{
+	font-size: 18px;
+	color: #333333;
+}
+
+h3{
+	font-size: 18px;
+	color: #333333;
+}
+
+h4{
+	font-size: 18px;
+	color: #333333;
+}
+
+h5{
+	font-size: 18px;
+	color: #333333;
+}
+
+a{
+  color: #0275d8;
+}
+
+a:focus, a:hover{
+  color: #014c8c;
+}
+
+/*
+/ Images
+/ ------------------------------ */
+
+.img-responsive{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-center,
+.image img,
+.image video{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.sentinel{
+	width: 100%;
+}
+
+/*
+/ Transitions
+/ ------------------------------ */
+
+.transition{
+	transition: all .15s linear;
+	-o-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+/*
+/ Forms
+/ ------------------------------ */
+
+.form-control{
+	font-size: 14px;
+	color: #333333;
+	padding: 5px 10px;
+	border: 1px solid #dedede;
+}
+
+/*
+/ Buttons
+/ ------------------------------ */
+
+.buttons{
+	margin: 20px 0 0;
+}
+
+.buttons a{
+	float: left;
+	padding: 10px 15px;
+	font-size: 12px;
+	border: 1px solid;
+	white-space: nowrap;
+	vertical-align: middle;
+	margin: 0 10px 10px 0;
+
+	cursor: pointer;
+	-ms-touch-action: manipulation;
+ 	touch-action: manipulation;
+	-webkit-user-select: none;
+ 	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.buttons a:last-child{
+	margin-right: 0;
+}
+
+/*** Button colours ***/
+
+.buttons a{
+	background-color: #ffffff;
+	border-color: #dedede;
+	color: #333333;
+}
+
+.buttons a:hover{
+	text-decoration: none;
+	background-color: #f0f0f0;
+	color: #333333;
+}
+
+/*
+/ Header
+/ ------------------------------ */
+
+#header{
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(https://yourgo.github.io/EbayDescription/template_images/header-media.png);
+	background-size: auto;
+}
+
+@media (max-width: 1299px){
+	#header{
+		background-size: auto;
+	}
+}
+
+@media (max-width: 1023px){
+	#header{
+		background-size: auto;
+	}
+}
+
+@media (max-width: 767px){
+	#header{
+		background-size: auto;
+		background-image: url(https://yourgo.github.io/EbayDescription/template_images/header-media-mobile.png);
+	}
+}
+
+@media (max-width: 575px){
+	#header{
+		background-size: auto;
+	}
+}
+
+#header .container{
+	position: relative;
+}
+
+#header .logo{
+	float: left;
+	margin: 35px 0;
+}
+
+@media (max-width: 1299px){
+	#header .logo{
+		margin: 25px 0;
+	}
+}
+
+#header .logo a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+@media (max-width: 767px){
+	#header .logo img{
+		width: 180px;
+	}
+}
+
+@media (max-width: 575px){
+	#header .logo{
+		margin: 15px 0;
+	}
+	#header .logo img{
+		width: 125px;
+	}
+}
+
+/*
+/ Selling Points
+/ ------------------------------ */
+
+#selling-points{
+	text-align: center;
+}
+
+#selling-points .row{
+	margin: 0;
+	padding: 12px 0;
+}
+
+#slider > figure{
+	display: flex;
+}
+
+#slider > figure::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#selling-points figure > div{
+	flex-grow: 1;
+
+	border-left: 1px solid #d9d9d9;
+}
+
+#selling-points figure > div:first-child{
+	border: none;
+}
+
+#selling-points .icon{
+	display: inline-block;
+}
+
+#selling-points h2{
+	margin: 0;
+	font-size: 19px;
+	color: #093664;
+	font-weight: 700;
+}
+
+#selling-points p{
+	margin: 0;
+	font-size: 16px;
+	color: #093664;
+}
+
+/*
+/ Slider
+/ ------------------------------ */
+
+@media (max-width: 767px){
+
+	#selling-points h2{
+		font-size: 16px;
+	}
+	
+	#selling-points p{
+		font-size: 14px;
+	}
+
+	#selling-points .row{
+		padding: 0;
+	}
+
+	#slider{
+	 overflow: hidden;
+	}
+
+	#slider figure {
+	 position: relative;
+	 display: block;
+	 width: 400%;
+	 margin: 0;
+	 left: 0;
+	 text-align: left;
+	 font-size: 0;
+	 animation: 10s slidy infinite;
+	}
+
+	#slider figure > div{
+	 display: block;
+	 width: 25%;
+	 float:left;
+	 border:none;
+	 text-align: center;
+	 border: none;
+	}
+
+	/** 3 (4) Slides **/
+
+	@keyframes slidy {
+	 0% { left: 0%; }
+	 25% { left: 0%; }
+	 30% { left: -100%; }
+	 60% { left: -100%; }
+	 65% { left: -200%; }
+	 95% { left: -200%; }
+	 100% { left: -300%; }
+	}
+
+}
+
+/*
+/ Main
+/ ------------------------------ */
+
+#main{
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+	#main{
+		margin-top: 15px;
+	}
+}
+
+.main-row{
+	margin: 0;
+	background-color: #effaff;
+	padding: 15px 0;
+}
+
+@media (min-width: 1024px) {
+	.main-row{
+		padding: 50px 50px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.main-row{
+		padding: 50px 70px;
+	}
+}
+
+
+/*
+/ Images
+/ ------------------------------ */
+
+.images{
+	position: relative;
+	margin-right: -15px;
+}
+
+@media (max-width: 575px){
+	.images{
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 1300px) {
+	.main-row > div:first-child{
+		padding-right: 70px;
+	}
+}
+
+.images > img{
+	width: 100%;
+}
+
+.images .image{
+	width: 20%;
+	float: left;
+	position: static;
+	padding-right: 15px;
+}
+
+@media (max-width: 1023px){
+	.images .image{
+		width: 25%;
+	}
+}
+
+@media (max-width: 767px){
+	.images .image{
+		width: 20%;
+	}
+}
+
+.images .image[data-image=""]{
+	display: none;
+}
+
+/*** Thumbnails ***/
+
+.image .thumbnail{
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	padding-bottom: 100%;
+}
+
+/*** Remove if using videos ***/
+.image .thumbnail[data-checkimage2=""]{
+	display: none;
+}
+
+.image .thumbnails-control{
+	display: none;
+}
+
+.image .thumbnails-control:checked + .thumbnail{
+	border-color: #333333;
+	box-shadow: 0 0 0 1px #333333;
+}
+
+.image #thumbnail-control-video:checked ~ #image-video,
+.image #thumbnail-control-1:checked ~ #image-1,
+.image #thumbnail-control-2:checked ~ #image-2,
+.image #thumbnail-control-3:checked ~ #image-3,
+.image #thumbnail-control-4:checked ~ #image-4,
+.image #thumbnail-control-5:checked ~ #image-5,
+.image #thumbnail-control-6:checked ~ #image-6,
+.image #thumbnail-control-7:checked ~ #image-7,
+.image #thumbnail-control-8:checked ~ #image-8,
+.image #thumbnail-control-9:checked ~ #image-9,
+.image #thumbnail-control-10:checked ~ #image-10,
+.image #thumbnail-control-11:checked ~ #image-11,
+.image #thumbnail-control-12:checked ~ #image-12,
+.image #thumbnail-control-13:checked ~ #image-13,
+.image #thumbnail-control-14:checked ~ #image-14,
+.image #thumbnail-control-15:checked ~ #image-15,
+.image #thumbnail-control-16:checked ~ #image-16{
+	display: block;
+}
+
+@media (max-width: 575px) {
+	.images{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.images .image{
+		width: auto;
+		float: none;
+		display: inline-block;
+		padding: 0;
+	}
+	.image .thumbnail{
+		width: 8px;
+		height: 8px;
+		border-radius: 100%;
+		margin: 15px 3px 0;
+		padding-bottom: 0;
+		border: 0;
+		background-color: #e3e3e3;
+	}
+	.image .thumbnails-control:checked + label{
+		background-color: #4e4e4e;
+	}
+	.image .thumbnail img{
+		display: none;
+	}
+}
+
+/*** Images ***/
+
+.image .main{
+	animation-name: fadeIn;
+    animation-duration: 0.5s;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	display: none;
+	cursor: pointer;
+	padding-right: 15px;
+}
+
+@media (max-width: 575px){
+	.image .main{
+		padding-right: 0;
+	}
+}
+
+.image .main .main-content{
+	position: relative;
+	padding-bottom: 80%;
+	background-color: #ffffff;
+}
+
+/*** Video ***/
+
+.image .main video{
+	width: 100%;
+}
+
+/*** Arrows ***/
+
+.image .main .prev,
+.image .main .next{
+	background-size: cover;
+	position: absolute;
+	width: 39px;
+	height: 60px;
+	top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+
+	background-color: rgba(255,255,255,0.9);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.image .main .prev{
+	left: 0;
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/prev3.png');
+}
+
+.image .main .next{
+	right: 0;
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/next3.png');
+}
+
+/***
+.image .main .prev,
+.image .main .next{
+	background-size: cover;
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	top: 50%;
+	margin-top: -20px;
+	cursor: pointer;
+
+	background-color: #c1c1c1;
+	border-radius: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.image .main .prev{
+	left: 5px;
+	background-image: url('/EbayDescription/template_images/prev.png');
+}
+
+.image .main .next{
+	right: 5px;
+	background-image: url('/EbayDescription/template_images/next.png');
+}
+***/
+
+/***
+.image .main .prev,
+.image .main .next{
+	background-size: cover;
+	position: absolute;
+	width: 30px;
+	height: 75px;
+	top: 50%;
+	margin-top: -37px;
+	cursor: pointer;
+
+	background-color: #c1c1c1;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.image .main .prev{
+	left: -15px;
+	background-image: url('/EbayDescription/template_images/prev2.png');
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.image .main .next{
+	right: -15px;
+	background-image: url('/EbayDescription/template_images/next2.png');
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+***/
+
+.image .main .prev[data-prev=""],
+.image .main .next[data-next=""]{
+	display: none;
+}
+
+.image .main-control{
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.image .main .prev,
+	.image .main .next{
+		display: none;
+	}
+}
+
+/*** Click to zoom ***/
+
+@media (min-width: 768px) {
+	.image .main-control:checked + .main{
+		animation-name: fadeInImage;
+  	animation-duration: 0.5s;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		background-color: rgba(0,0,0,0.65);
+		text-align: center;
+	}
+	.image .main-control:checked + .main .main-content{
+		position: relative;
+		border: 0;
+		width: 600px;
+		height: 600px;
+		padding: 0;
+		background-color: #ffffff;
+		margin: 50px auto 0;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+	}
+	.image .main-control:checked + .main .main-content img{
+		max-width: 100%;
+	}
+	.image .main-control:checked + .main .main-content .prev,
+	.image .main-control:checked + .main .main-content .next{
+		display: none;
+	}
+	.image .main .main-content:after{
+		content: "";
+		background-image: url('https://yourgo.github.io/EbayDescription/template_images/zoom.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #ffffff;
+		border: 1px solid #c5c5c5;
+		border-radius: 100%;
+		padding-left: 20px;
+		line-height: 17px;
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		width: 42px;
+		height: 42px;
+		display: block;
+	}
+	.image .main-control:checked + .main .main-content:after{
+		bottom: auto;
+		left: auto;
+		top: 10px;
+		right: 10px;
+		width: 19px;
+		height: 19px;
+		padding: 0;
+		content: "";
+		border-radius: 0;
+		border: 0;
+		background-image: url('https://yourgo.github.io/EbayDescription/template_images/close.png');
+		display: block;
+	}
+}
+
+@media (min-width: 1024px) {
+	.image .main-control:checked + .main .main-content{
+		width: 800px;
+		height: 800px;
+	}
+}
+
+/*** Image Counter ***/
+
+.count-label{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+
+	padding: 2px 5px;
+
+	color: #333333;
+	font-size: 12px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.count-label[data=""]{
+	display: none;
+}
+
+@media (min-width: 576px){
+	.count-label{
+		display: none;
+	}
+}
+
+.count-label div{
+	float: left;
+	position: relative;
+}
+
+.count-label div:last-child{
+	margin-left: 4px;
+	width: 8px;
+}
+
+.count-label div:last-child[data-double*="https"]{
+	width: 15px;
+}
+
+.count-label span{
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	width: 8px;
+
+	background-color: #ffffff;
+}
+
+.count-label span.count-double{
+	width: 15px;
+}
+
+.count-label div span[data-count=""]{
+	display: none;
+}
+
+/*
+/ Item Description
+/ ------------------------------ */
+
+/*** Title ***/
+
+#main-details > h1{
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: 400;
+	color: #333333;
+	line-height: 1.1;
+}
+
+/*
+@media (min-width: 576px) and (max-width: 767px){
+	#main-details > h1{
+		padding-top: 40px;
+	}
+}
+*/
+
+@media (max-width: 575px){
+	#main-details > h1{
+		font-size: 24px;
+	}
+}
+
+/*** Price ***/
+
+.main-price{
+	margin-bottom: 20px;
+	color: #333333;
+}
+.main-price[data-price=""],
+.main-price[data-price="0.00"]{ display: none; }
+
+.main-price .currency,
+.main-price .value{
+	display: inline-block;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/*** Trusted ***/
+
+.trusted{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.trusted h2{
+	margin: 0 10px 0 0;
+	color: #333333;
+	font-size: 17px;
+	font-weight: 400;
+
+	background-image: url(https://yourgo.github.io/EbayDescription/template_images/icon-uk.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+}
+
+.trusted h2::after{
+	content: "";
+}
+
+.trusted div{
+	margin: 0 10px 0 0;
+}
+
+.trusted a{
+	display: inline-block;
+	color: #1889fa;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.trusted a::after{
+	content: "";
+}
+
+/*** Description ***/
+
+/*
+.delivery div:after,
+.returns div:after{
+	display: block;
+	margin-bottom: 10px;
+}
+*/
+
+/*** Description Overides ***/
+
+.item-description img{
+	max-width: 100%;
+	width: auto !important;
+	height: auto !important;
+}
+
+.item-description ul li,
+.item-description ol li{
+	margin-bottom: 4px;
+}
+
+.item-description table{
+	font-size: 13px;
+}
+
+.item-description font,
+.item-description b font,
+.item-description strong font,
+.item-description p font,
+.item-description ul li font,
+.item-description ol li font,
+.item-description th font,
+.item-description td font,
+.item-description h2 font,
+.item-description h3 font,
+.item-description h4 font,
+.item-description h5 font,
+.item-description b,
+.item-description strong{
+	font-size: inherit !important;
+	font-family: inherit !important;
+	line-height: inherit !important;
+}
+
+.item-description p,
+.item-description ul li,
+.item-description ol li,
+.item-description th,
+.item-description td,
+.item-description h2,
+.item-description h3,
+.item-description h4,
+.item-description h5,
+.item-description span,
+.item-description div{
+	font-family: inherit !important;
+	line-height: inherit !important;
+}
+
+/*
+/ Condition Pop Up
+/ ------------------------------ */
+
+.condition{
+	margin-bottom: 25px;
+}
+
+.condition > h2{
+	display: inline-block;
+	margin: 0 10px 5px 0;
+	padding: 10px 15px;
+	background-color: #1889fa;
+
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#condition-button{
+	display: inline-block;
+}
+
+#condition-button > label{
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding-left: 20px;
+
+	font-size: 16px;
+	color: #093664;
+	text-decoration: underline;
+
+	cursor: pointer;
+}
+
+#condition-button > label::after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 0;
+	top: 4px;
+	background-image: url(https://yourgo.github.io/EbayDescription/template_images/icon-info.png);
+}
+
+#condition-button #popup-closed-condition,
+#condition-button #popup-opened-condition{
+	display: none;
+}
+
+#condition-button #popup-closed-condition:checked ~ .popup { display: none; }
+#condition-button #popup-opened-condition:checked ~ .popup { display: block; }
+
+#condition-button .popup{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+
+    background-color: rgba(0,0,0,0.65);
+    animation-name: fadeInImage;
+    animation-duration: 0.5s;
+}
+
+#condition-button .popup > div{
+    margin: 200px auto 0;
+
+	position: relative;
+    width: 850px;
+    padding: 10px 10px;
+
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 1023px){
+	#condition-button .popup > div{
+	    width: 720px;
+		margin: 100px auto 0;
+	}
+}
+
+@media (max-width: 767px){
+	#condition-button .popup > div{
+	    width: 500px;
+	}
+}
+
+@media (max-width: 575px){
+	#condition-button .popup > div{
+	    width: 320px;
+	}
+}
+
+#condition-button .popup .popup-header{
+	padding-bottom: 10px;
+}
+
+#condition-button .popup .popup-header label{
+	float: right;
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+
+	background-image: url(https://yourgo.github.io/EbayDescription/template_images/close-menu.png);
+	background-repeat: no-repeat;
+}
+
+#condition-button .popup .popup-body{
+	padding: 10px 20px 20px;
+	height: auto;
+	overflow: visible;
+	font-size: 16px;
+	color: #333333;
+	line-height: 1.5;
+}
+
+/*
+/ Tabs
+/ ------------------------------ */
+
+.tabs{
+	margin-top: 40px;
+}
+
+@media (max-width: 767px){
+	.tabs{
+		margin-top: 20px;
+	}
+}
+
+.tabs .tab-control{
+	display: none;
+}
+
+.tabs > label{
+	display: block;
+
+	float: left;
+	position: relative;
+	z-index: 10;
+
+	padding: 15px 40px;
+	margin: 0 3px -1px 0;
+
+	font-size: 18px;
+	color: #333333;
+
+	background-color: #fafafa;
+	border: 1px solid #dedede;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.tabs > label:hover{
+	color: #333333;
+	background-color: #fff;
+	cursor: pointer;
+
+	border-bottom: 1px solid #fff;
+}
+
+.tabs #tab-control-1:checked ~ label[for="tab-control-1"],
+.tabs #tab-control-2:checked ~ label[for="tab-control-2"],
+.tabs #tab-control-3:checked ~ label[for="tab-control-3"],
+.tabs #tab-control-4:checked ~ label[for="tab-control-4"],
+.tabs #tab-control-5:checked ~ label[for="tab-control-5"],
+.tabs #tab-control-6:checked ~ label[for="tab-control-6"]{
+	background-color: #fff;
+	color: #333333;
+
+	border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 767px) {
+	.tabs{
+		border: 1px solid #dddddd;
+		border-top: 0;
+	}
+	.tabs > label{
+		width: 100%;
+		margin: 0;
+		padding: 15px 15px;
+		border: 0;
+		border-top: 1px solid #dedede;
+		border-radius: 0;
+
+		/*
+		background-image: url(/EbayDescription/template_images/tab-arrow-mobile.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+		*/
+	}
+	.tabs > label::after {
+		content: "";
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+	  width: 0;
+	  height: 0;
+	  border-top: 5px solid transparent;
+	  border-bottom: 5px solid transparent;
+	  border-left: 5px solid #333333;
+	}
+	.tabs #tab-control-1:checked ~ label[for="tab-control-1"],
+	.tabs #tab-control-2:checked ~ label[for="tab-control-2"],
+	.tabs #tab-control-3:checked ~ label[for="tab-control-3"],
+	.tabs #tab-control-4:checked ~ label[for="tab-control-4"],
+	.tabs #tab-control-5:checked ~ label[for="tab-control-5"],
+	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]{
+		/*background-image: url(/EbayDescription/template_images/tab-arrow-mobile-open.png);*/
+		border-bottom: 0;
+	}
+	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::after,
+	.tabs #tab-control-2:checked ~ label[for="tab-control-2"]::after,
+	.tabs #tab-control-3:checked ~ label[for="tab-control-3"]::after,
+	.tabs #tab-control-4:checked ~ label[for="tab-control-4"]::after,
+	.tabs #tab-control-5:checked ~ label[for="tab-control-5"]::after,
+	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]::after{
+		right: 18px;
+		border-top: 5px solid #333333;
+	  border-right: 5px solid transparent;
+	  border-left: 5px solid transparent;
+	}
+
+	/* Arrow Shape */
+	/*
+	.tabs > label::after {
+		content: "";
+		position: absolute;
+		right: 20px;
+		top: 25px;
+		transform: rotate(45deg);
+		width: 15px;
+	  height: 15px;
+	  border: 2px solid #333333;
+	  border-left: 0;
+	  border-top: 0;
+	}
+	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::after,
+	.tabs #tab-control-2:checked ~ label[for="tab-control-2"]::after,
+	.tabs #tab-control-3:checked ~ label[for="tab-control-3"]::after,
+	.tabs #tab-control-4:checked ~ label[for="tab-control-4"]::after,
+	.tabs #tab-control-5:checked ~ label[for="tab-control-5"]::after,
+	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]::after{
+		transform: rotate(225deg);
+	}
+	*/
+
+	/* Line Shape */
+	/*
+	.tabs > label::before {
+		content: "";
+		position: absolute;
+		right: 29px;
+		top: 50%;
+		transform: translateY(-50%);
+	  width: 2px;
+	  height: 20px;
+		background-color: #3d7928;
+	}
+	.tabs > label::after {
+		content: "";
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+	  width: 20px;
+	  height: 2px;
+		background-color: #3d7928;
+	}
+	.tabs #tab-control-1:checked ~ label[for="tab-control-1"],
+	.tabs #tab-control-2:checked ~ label[for="tab-control-2"],
+	.tabs #tab-control-3:checked ~ label[for="tab-control-3"],
+	.tabs #tab-control-4:checked ~ label[for="tab-control-4"],
+	.tabs #tab-control-5:checked ~ label[for="tab-control-5"],
+	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]{
+	}
+	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::before,
+	.tabs #tab-control-2:checked ~ label[for="tab-control-2"]::before,
+	.tabs #tab-control-3:checked ~ label[for="tab-control-3"]::before,
+	.tabs #tab-control-4:checked ~ label[for="tab-control-4"]::before,
+	.tabs #tab-control-5:checked ~ label[for="tab-control-5"]::before,
+	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]::before{
+		display: none;
+	}
+	*/
+}
+
+.tabs .tab-content{
+	display: none;
+	/*animation-name: fadeIn;
+  	animation-duration: 1.0s;*/
+
+	float: left;
+	width: 100%;
+	padding: 25px 40px;
+
+	font-size: 18px;
+	line-height: 1.5;
+	color: #333333;
+
+	border: 1px solid #dedede;
+	background-color: #fff;
+}
+
+.tabs .tab-content img,
+.tabs .tab-content img{
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+}
+
+.tabs .tab-content ul li,
+.tabs .tab-content ol li{
+	margin-bottom: 4px;
+}
+
+@media (max-width: 767px) {
+	.tabs .tab-content{
+		border: 0;
+		padding: 15px;
+	}
+}
+
+#tab-control-1:checked ~ #tab-content-1,
+#tab-control-2:checked ~ #tab-content-2,
+#tab-control-3:checked ~ #tab-content-3,
+#tab-control-4:checked ~ #tab-content-4,
+#tab-control-5:checked ~ #tab-content-5,
+#tab-control-6:checked ~ #tab-content-6{
+	display: block;
+}
+
+@media (max-width: 767px) {
+	.tabs .desktop-label{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.tabs .mobile-label{
+		display: none;
+	}
+}
+
+/*
+/ Featured
+/ ------------------------------ */
+
+.featured{
+	margin: 10px 0 0;
+}
+
+.featured a{
+	display: block;
+	position: relative;
+	margin-top: 30px;
+	text-decoration: none;
+	border-radius: 6px;
+	overflow: hidden;
+	border: 1px solid #dedede;
+}
+
+.featured a .content{
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+@media (max-width: 575px) {
+	.featured a .content{
+		bottom: 10px;
+	}
+}
+
+.featured a .content h3{
+	margin: 0;
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 1;
+}
+
+@media (max-width: 575px) {
+	.featured a .content h3{
+		font-size: 20px;
+	}
+}
+
+.featured a .content span{
+	margin: 0;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+@media (max-width: 575px) {
+	.featured a .content span{
+		font-size: 14px;
+	}
+}
+
+
+/*
+/ Footer
+/ ------------------------------ */
+
+#footer{
+	text-align: center;
+}
+
+#footer h2{
+	margin: 10px 0;
+	font-size: 62px;
+	color: #1889fa;
+	line-height: 1;
+}
+
+#footer p{
+	margin: 0 0 20px;
+	font-size: 29px;
+	color: #1889fa;
+}
+
+#footer a{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 15px 30px;
+	background-color: #2acc72;
+	border-radius: 4px;
+}
+
+@media (max-width: 575px) {
+	#footer h2{
+		font-size: 40px;
+	}
+	#footer p{
+		font-size: 20px;
+	}
+	#footer a{
+		font-size: 16px;
+	}
+}
+
+/*
+/ Footer Sub
+/ ------------------------------ */
+
+#footer-sub{
+	padding: 50px 0;
+	text-align: center;
+}
+
+/*** Copyright box ***/
+
+.copyright{
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px 0;
+	margin: 0 5px;
+}
+
+.copyright:hover{
+	text-decoration: none;
+}
+
+.copyright span{
+	display: block;
+	color: #606060;
+	font-size: 10px;
+	font-family: Arial, sans-serif;
+	line-height: 12px;
+	width: auto;
+	text-align: center;
+}
+
+.copyright.studioworx span{ margin-top: 8px; }
+
+.copyright img{
+	margin-top: 4px;
+}
