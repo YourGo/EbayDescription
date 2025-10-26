@@ -269,10 +269,10 @@ a:focus, a:hover{
 
 @media (max-width: 767px){
 	.desktop{
-		display: none;
+		display: none !important;
 	}
 	.mobile{
-		display: block;
+		display: block !important;
 	}
 }
 
