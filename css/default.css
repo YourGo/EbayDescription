@@ -263,6 +263,19 @@ a:focus, a:hover{
 	height: auto;
 }
 
+.mobile{
+	display: none;
+}
+
+@media (max-width: 767px){
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+
 @media (max-width: 1299px){
 	#header{
 		background-size: auto;
