@@ -256,10 +256,11 @@ a:focus, a:hover{
 
 #header{
 	text-align: center;
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-image: url(https://yourgo.github.io/EbayDescription/template_images/header-media.png);
-	background-size: auto;
+}
+
+#header img{
+	width: 100%;
+	height: auto;
 }
 
 @media (max-width: 1299px){
