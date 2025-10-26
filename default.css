@@ -12,9 +12,34 @@ this page has been accessed directly including the IP, Time and domain it was ac
 / Max width overide
 / ------------------------------ */
 
+@media (min-width: 576px) {
+	#header {
+		max-width: 540px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	#header {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	#header {
+		max-width: 1010px;
+		margin: 0 auto;
+	}
+}
+
 @media (min-width: 1300px) {
 	.container {
 		max-width: 1260px;
+	}
+	#header {
+		max-width: 1260px;
+		margin: 0 auto;
 	}
 }
 
