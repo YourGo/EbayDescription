@@ -970,16 +970,6 @@ a:focus, a:hover{
 	text-align: left;
 }
 
-#condition-button .popup .popup-body {
-    max-height: 60vh;
-    overflow-y: auto;
-}
-
-.popup-overlay .popup .popup-body {
-    max-height: 60vh;
-    overflow-y: auto;
-}
-
 /*
 / Tabs
 / ------------------------------ */
@@ -1162,6 +1152,7 @@ a:focus, a:hover{
 	border-radius: 6px;
 	overflow: hidden;
 	border: 10px solid;
+	min-height: 200px;
 }
 
 .featured .row > div:nth-child(1) a {
