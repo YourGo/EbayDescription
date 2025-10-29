@@ -1,12 +1,8 @@
-/****** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-CSS COPYRIGHT www.studioworx.co.uk - The CSS is prohibited from viewing, using in whole or part.
-Usage of the CSS may result in legal action. A notification has been sent to us letting us know
-this page has been accessed directly including the IP, Time and domain it was accessed from.
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *******/
+/*
+ * Your Go eBay Template Styles
+ * Copyright © 2025 Your Go
+ * All rights reserved
+ */
 
 /*
 / Max width overide
@@ -165,7 +161,7 @@ a:focus, a:hover{
 	max-height: 100%;
 }
 
-.sentinel{
+.place{
 	width: 100%;
 }
 
@@ -281,24 +277,6 @@ a:focus, a:hover{
 	}
 }
 
-@media (max-width: 1023px){
-	#header{
-		background-size: auto;
-	}
-}
-
-@media (max-width: 767px){
-	#header{
-		background-size: auto;
-	}
-}
-
-@media (max-width: 575px){
-	#header{
-		background-size: auto;
-	}
-}
-
 #header .container{
 	position: relative;
 }
@@ -360,20 +338,20 @@ a:focus, a:hover{
 }
 
 #nav-bar .btn:nth-child(1):hover {
-	background-color: #0098e2; /* Blue for New Games */
+	background-color: #008cdb; /* Blue for New Games */
 }
 
 #nav-bar .btn:nth-child(2):hover {
-	background-color: #ff4047; /* Red for Pre-Owned Games */
+	background-color: #c71515; /* Red for Pre-Owned Games */
 }
 
 #nav-bar .btn:nth-child(3):hover {
-	background-color: #f3e200; /* Yellow for Board Games */
+	background-color: #fdd100; /* Yellow for Board Games */
 	color:#000000
 }
 
 #nav-bar .btn:nth-child(4):hover {
-	background-color: #48ee00; /* Green for DVDs */
+	background-color: #44af2e; /* Green for DVDs */
 	color:#000000
 }
 
@@ -411,13 +389,13 @@ a:focus, a:hover{
 / ------------------------------ */
 
 #main{
-	margin-top: 40px;
-	padding-bottom: 50px;
+	margin-top: 0px;
+	padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
 	#main{
-		margin-top: 15px;
+		margin-top: 0px;
 	}
 }
 
@@ -425,6 +403,7 @@ a:focus, a:hover{
 	margin: 0;
 	background-color: #ffffff;
 	padding: 15px 0;
+	border-radius: 8px;
 }
 
 @media (min-width: 1024px) {
@@ -628,65 +607,6 @@ a:focus, a:hover{
 	background-image: url('../template_images/next3.png');
 }
 
-/***
-.image .main .prev,
-.image .main .next{
-	background-size: cover;
-	position: absolute;
-	width: 39px;
-	height: 39px;
-	top: 50%;
-	margin-top: -20px;
-	cursor: pointer;
-
-	background-color: #c1c1c1;
-	border-radius: 500px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.image .main .prev{
-	left: 5px;
-	background-image: url('/EbayDescription/template_images/prev.png');
-}
-
-.image .main .next{
-	right: 5px;
-	background-image: url('/EbayDescription/template_images/next.png');
-}
-***/
-
-/***
-.image .main .prev,
-.image .main .next{
-	background-size: cover;
-	position: absolute;
-	width: 30px;
-	height: 75px;
-	top: 50%;
-	margin-top: -37px;
-	cursor: pointer;
-
-	background-color: #c1c1c1;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.image .main .prev{
-	left: -15px;
-	background-image: url('/EbayDescription/template_images/prev2.png');
-	border-top-right-radius: 2px;
-	border-bottom-right-radius: 2px;
-}
-
-.image .main .next{
-	right: -15px;
-	background-image: url('/EbayDescription/template_images/next2.png');
-	border-top-left-radius: 2px;
-	border-bottom-left-radius: 2px;
-}
-***/
-
 .image .main .prev[data-prev=""],
 .image .main .next[data-next=""]{
 	display: none;
@@ -838,24 +758,14 @@ a:focus, a:hover{
 
 /*** Title ***/
 
-#main-details > h1{
+	#main-details > h1{
 	margin-bottom: 20px;
 	font-size: 28px;
 	font-weight: 400;
 	color: #333333;
 	line-height: 1.1;
 	text-align: right;
-}
-
-/*
-@media (min-width: 576px) and (max-width: 767px){
-	#main-details > h1{
-		padding-top: 40px;
-	}
-}
-*/
-
-@media (max-width: 575px){
+}@media (max-width: 575px){
 	#main-details > h1{
 		font-size: 24px;
 	}
@@ -879,14 +789,6 @@ a:focus, a:hover{
 }
 
 /*** Description ***/
-
-/*
-.delivery div:after,
-.returns div:after{
-	display: block;
-	margin-bottom: 10px;
-}
-*/
 
 /*** Description Overides ***/
 
@@ -952,7 +854,7 @@ a:focus, a:hover{
 	display: inline-block;
 	margin: 0 10px 5px 0;
 	padding: 10px 15px;
-	background-color: #1889fa;
+	background-color: #008cdb;
 
 	color: #ffffff;
 	font-size: 18px;
@@ -1017,13 +919,12 @@ a:focus, a:hover{
 
 #condition-button .popup > div{
     margin: 200px auto 0;
-
 	position: relative;
     width: 850px;
     padding: 10px 10px;
-
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+	border-radius: 8px;
 }
 
 @media (max-width: 1023px){
@@ -1067,12 +968,6 @@ a:focus, a:hover{
 	color: #333333;
 	line-height: 1.5;
 	text-align: left;
-}
-
-#condition-button .popup .popup-body p.current-condition {
-	background-color: #f3e200;
-	padding: 5px;
-	border-radius: 4px;
 }
 
 #condition-button .popup .popup-body {
@@ -1152,12 +1047,6 @@ a:focus, a:hover{
 		border: 0;
 		border-top: 1px solid #dedede;
 		border-radius: 0;
-
-		/*
-		background-image: url(/EbayDescription/template_images/tab-arrow-mobile.png);
-		background-repeat: no-repeat;
-		background-position: right center;
-		*/
 	}
 	.tabs > label::after {
 		content: "";
@@ -1175,7 +1064,6 @@ a:focus, a:hover{
 	.tabs #tab-control-4:checked ~ label[for="tab-control-4"],
 	.tabs #tab-control-5:checked ~ label[for="tab-control-5"],
 	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]{
-		/*background-image: url(/EbayDescription/template_images/tab-arrow-mobile-open.png);*/
 		border-bottom: 0;
 	}
 	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::after,
@@ -1187,70 +1075,10 @@ a:focus, a:hover{
 	  border-right: 5px solid transparent;
 	  border-left: 5px solid transparent;
 	}
-
-	/* Arrow Shape */
-	/*
-	.tabs > label::after {
-		content: "";
-		position: absolute;
-		right: 20px;
-		top: 25px;
-		transform: rotate(45deg);
-		width: 15px;
-	  height: 15px;
-	  border: 2px solid #333333;
-	  border-left: 0;
-	  border-top: 0;
-	}
-	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::after,
-	.tabs #tab-control-4:checked ~ label[for="tab-control-4"]::after,
-	.tabs #tab-control-5:checked ~ label[for="tab-control-5"]::after,
-	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]::after{
-		transform: rotate(225deg);
-	}
-	*/
-
-	/* Line Shape */
-	/*
-	.tabs > label::before {
-		content: "";
-		position: absolute;
-		right: 29px;
-		top: 50%;
-		transform: translateY(-50%);
-	  width: 2px;
-	  height: 20px;
-		background-color: #3d7928;
-	}
-	.tabs > label::after {
-		content: "";
-		position: absolute;
-		right: 20px;
-		top: 50%;
-		transform: translateY(-50%);
-	  width: 20px;
-	  height: 2px;
-		background-color: #3d7928;
-	}
-	.tabs #tab-control-1:checked ~ label[for="tab-control-1"],
-	.tabs #tab-control-4:checked ~ label[for="tab-control-4"],
-	.tabs #tab-control-5:checked ~ label[for="tab-control-5"],
-	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]{
-	}
-	.tabs #tab-control-1:checked ~ label[for="tab-control-1"]::before,
-	.tabs #tab-control-4:checked ~ label[for="tab-control-4"]::before,
-	.tabs #tab-control-5:checked ~ label[for="tab-control-5"]::before,
-	.tabs #tab-control-6:checked ~ label[for="tab-control-6"]::before{
-		display: none;
-	}
-	*/
 }
 
 .tabs .tab-content{
 	display: none;
-	/*animation-name: fadeIn;
-  	animation-duration: 1.0s;*/
-
 	float: left;
 	width: 100%;
 	padding: 25px 40px;
@@ -1323,13 +1151,13 @@ a:focus, a:hover{
 / ------------------------------ */
 
 .featured{
-	margin: 5px 0 0;
+	margin: 0px 0 10px;
 }
 
 .featured a{
 	display: block;
 	position: relative;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-decoration: none;
 	border-radius: 6px;
 	overflow: hidden;
@@ -1337,19 +1165,19 @@ a:focus, a:hover{
 }
 
 .featured .row > div:nth-child(1) a {
-	border-color: #f3e200; /* Red for Board Games */
+	border-color: #fdd100; /* Red for Board Games */
 }
 
 .featured .row > div:nth-child(2) a {
-	border-color: #48ee00; /* Teal for DVDs */
+	border-color: #44af2e; /* Teal for DVDs */
 }
 
 .featured .row > div:nth-child(3) a {
-	border-color: #0098e2; /* Blue for Puzzles */
+	border-color: #008cdb; /* Blue for Puzzles */
 }
 
 .featured .row > div:nth-child(4) a {
-	border-color: #ff4047; /* Green for Video Games */
+	border-color: #c71515; /* Green for Video Games */
 }
 
 .featured a .content{
@@ -1447,25 +1275,25 @@ a:focus, a:hover{
 }
 
 #footer .btn:nth-child(1):hover {
-	background-color: #0098e2; /* Blue for Visit Store */
+	background-color: #008cdb; /* Blue for Visit Store */
 }
 
 #footer .btn:nth-child(2):hover {
-	background-color: #ff4047; /* Red for Delivery */
+	background-color: #44af2e; /* Green for Delivery */
 }
 
 #footer .btn:nth-child(3):hover {
-	background-color: #f3e200; /* Yellow for Returns */
+	background-color: #c71515; /* Red for Returns */
 	color: #000000;
 }
 
 #footer .btn:nth-child(4):hover {
-	background-color: #48ee00; /* Green for FAQ */
+	background-color: #f3e200; /* Yellow for FAQ */
 	color: #000000;
 }
 
 #footer a:hover{
-	background-color: #0098e2;
+	background-color: #008cdb;
 }
 
 #footer .btn:not(:last-child)::after {

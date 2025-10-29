@@ -6,6 +6,12 @@
  */
 
 /*
+ * Your Go eBay Template Layout
+ * Copyright © 2025 Your Go
+ * All rights reserved
+ */
+
+/*
 / Do not modify this file
 / ------------------------------ */
 
@@ -272,7 +278,7 @@ html {
 }
 
 body {
-  background-color: #070707;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus {
