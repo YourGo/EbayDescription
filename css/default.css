@@ -258,7 +258,7 @@ a:focus, a:hover{
     width: 100%;
     height: 0;
     padding-bottom: 21.55%;
-    background-image: url('../template_images/Header.png');
+    background-image: url('https://yourgo.github.io/EbayDescription/template_images/Header.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,7 +267,7 @@ a:focus, a:hover{
 @media (max-width: 767px){
     .header-bg {
         padding-bottom: 19.44%;
-        background-image: url('../template_images/Header-mobile.png');
+        background-image: url('https://yourgo.github.io/EbayDescription/template_images/Header-mobile.png');
     }
 }
 
@@ -599,12 +599,12 @@ a:focus, a:hover{
 
 .image .main .prev{
 	left: 0;
-	background-image: url('../template_images/prev3.png');
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/prev3.png');
 }
 
 .image .main .next{
 	right: 0;
-	background-image: url('../template_images/next3.png');
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/next3.png');
 }
 
 .image .main .prev[data-prev=""],
@@ -619,7 +619,7 @@ a:focus, a:hover{
 	right: 10px;
 	width: 24px;
 	height: 24px;
-	background-image: url('../template_images/zoom.png');
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/zoom.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -669,7 +669,7 @@ a:focus, a:hover{
 		right: 10px;
 		width: 20px;
 		height: 20px;
-		background-image: url('../template_images/close-menu.png');
+		background-image: url('https://yourgo.github.io/EbayDescription/template_images/close-menu.png');
 		background-repeat: no-repeat;
 		background-position: center;
 		cursor: pointer;
@@ -890,7 +890,7 @@ a:focus, a:hover{
 	transform: translateY(-50%);
 	width: 15px;
 	height: 15px;
-	background-image: url('../template_images/icon-info.png');
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/icon-info.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -1393,7 +1393,7 @@ a:focus, a:hover{
 	cursor: pointer;
 	width: 16px;
 	height: 16px;
-	background-image: url('../template_images/close-menu.png');
+	background-image: url('https://yourgo.github.io/EbayDescription/template_images/close-menu.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	display: inline-block;
