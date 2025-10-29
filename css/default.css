@@ -1471,6 +1471,11 @@ a:focus, a:hover{
 @media (max-width: 767px) {
 	.mobile-only {
 		display: block !important;
+		background-color: white;
+		color: black;
+		padding: 20px;
+		font-family: Arial, sans-serif;
+		line-height: 1.5;
 	}
 	.desktop-only {
 		display: none !important;
