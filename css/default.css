@@ -1457,8 +1457,8 @@ a:focus, a:hover{
 
 .mobile-only {
 	display: none !important;
-	background-color: white;
-	color: black;
+	background-color: white !important;
+	color: black !important;
 	padding: 20px;
 	font-family: Arial, sans-serif;
 	line-height: 1.5;
@@ -1466,6 +1466,14 @@ a:focus, a:hover{
 
 .desktop-only {
 	display: block !important;
+}
+
+/* Dark mode support for mobile */
+@media (prefers-color-scheme: dark) {
+	.mobile-only {
+		background-color: black !important;
+		color: white !important;
+	}
 }
 
 @media (max-width: 767px) {
