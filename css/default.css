@@ -1474,6 +1474,9 @@ a:focus, a:hover{
 		background-color: black !important;
 		color: white !important;
 	}
+	.mobile-only h1 {
+		color: white !important;
+	}
 }
 
 @media (max-width: 767px) {
