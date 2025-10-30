@@ -1464,6 +1464,10 @@ a:focus, a:hover{
 	line-height: 1.5;
 }
 
+.mobile-only h1 {
+	color: inherit !important;
+}
+
 .desktop-only {
 	display: block !important;
 }
@@ -1475,7 +1479,7 @@ a:focus, a:hover{
 		color: white !important;
 	}
 	.mobile-only h1 {
-		color: white !important;
+		color: inherit !important;
 	}
 }
 
